@@ -33,7 +33,7 @@ class _GameScreenState extends State<GameScreen> {
   Timer? timer;
 
   static var customFontWhite = GoogleFonts.coiny(
-    textStyle: TextStyle(
+    textStyle: const TextStyle(
       color: Colors.white,
       letterSpacing: 3,
       fontSize: 28,
